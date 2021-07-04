@@ -33,14 +33,14 @@ body {
 }
 
 .hlogo{
-  width: 10rem;
-  display: table;
+  width: 23em;
+  display: block;
   margin: 0px auto;
 }
 
 .hlogo img{
   display:block;
-  max-width: 32rem;
+  max-width: 23em;
 }
 
 .more {
