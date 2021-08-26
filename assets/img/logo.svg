@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 1080 1080" overflow="visible" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{display:none;}
+	.st2{display:inline;fill:none;}
+</style>
 <g>
-	<rect id="canvas_background" x="-1" y="-1" fill="none" width="1082" height="1082"/>
-	<g id="canvasGrid" display="none">
-		<rect display="inline" fill="none" width="1080" height="1080"/>
+	<rect id="canvas_background" x="-1" y="-1" class="st0" width="1082" height="1082"/>
+	<g id="canvasGrid" class="st1">
+		<rect class="st2" width="1080" height="1080"/>
 	</g>
 </g>
-<image width="1161" height="1161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIkAAASJCAYAAABcskxYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAM
+<image style="overflow:visible;opacity:0.5;enable-background:new    ;" width="1161" height="1161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIkAAASJCAYAAABcskxYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAM
 HmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
 TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
 LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NzUzLCAyMDIxLzAyLzE1
