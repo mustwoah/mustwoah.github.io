@@ -1,19 +1,19 @@
 'use strict';
 
-const circleCount = 150;
-const circlePropCount = 8;
+const circleCount = 313;
+const circlePropCount = 14;
 const circlePropsLength = circleCount * circlePropCount;
 const baseSpeed = 0.5;
-const rangeSpeed = 5;
-const baseTTL = 110;
-const rangeTTL = 315;
-const baseRadius = 110;
-const rangeRadius = 315;
-const rangeHue = 315;
+const rangeSpeed = 1;
+const baseTTL = 14;
+const rangeTTL = 110;
+const baseRadius = 132;
+const rangeRadius = 14;
+const rangeHue = 14;
 const xOff = 0.0014;
 const yOff = 0.0014;
 const zOff = 0.0014;
-const backgroundColor = 'hsla(121, 100%, 5%, 1)';
+const backgroundColor = '#12ff1433';
 
 let container;
 let canvas;
