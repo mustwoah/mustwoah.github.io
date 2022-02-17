@@ -3,17 +3,17 @@
 const circleCount = 313;
 const circlePropCount = 14;
 const circlePropsLength = circleCount * circlePropCount;
-const baseSpeed = 0.5;
+const baseSpeed = 1;
 const rangeSpeed = 1;
-const baseTTL = 14;
-const rangeTTL = 110;
+const baseTTL = 1;
+const rangeTTL = 1920;
 const baseRadius = 132;
 const rangeRadius = 14;
-const rangeHue = 14;
+const rangeHue = 1920;
 const xOff = 0.0014;
 const yOff = 0.0014;
 const zOff = 0.0014;
-const backgroundColor = '#12ff1433';
+const backgroundColor = '#12ff1412';
 
 let container;
 let canvas;
