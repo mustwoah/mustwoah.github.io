@@ -3,17 +3,17 @@
 const circleCount = 313;
 const circlePropCount = 313;
 const circlePropsLength = circleCount * circlePropCount;
-const baseSpeed = 3;
-const rangeSpeed = 1;
-const baseTTL = 5;
+const baseSpeed = 0.1;
+const rangeSpeed = 0.1;
+const baseTTL = 110;
 const rangeTTL = 353;
 const baseRadius = 213;
-const rangeRadius = 20;
-const rangeHue =92;
-const xOff = 0.0014;
-const yOff = 0.0014;
-const zOff = 0.0014;
-const backgroundColor = '#12ff1414';
+const rangeRadius = 72;
+const rangeHue =69;
+const xOff = 0;
+const yOff = 0;
+const zOff = 0;
+const backgroundColor = '#12ff1433';
 
 let container;
 let canvas;
@@ -33,7 +33,7 @@ function setup() {
 function initCircles() {
   circleProps = new Float32Array(circlePropsLength);
   simplex = new SimplexNoise();
-  baseHue = 220;
+  baseHue = 135;
 
   let i;
 
@@ -96,7 +96,7 @@ function updateCircle(i) {
 
 function drawCircle(x, y, life, ttl, radius, hue) {
   ctx.a.save();
-  ctx.a.fillStyle = `hsla(${hue},60%,30%,${fadeInOut(life,ttl)})`;
+  ctx.a.fillStyle = `hsla(${hue},92%,59%,${fadeInOut(life,ttl)})`;
   ctx.a.beginPath();
   ctx.a.arc(x,y, radius, 0, TAU);
   ctx.a.fill();
@@ -149,7 +149,7 @@ function resize() {
 
 function render() {
   ctx.b.save();
-  ctx.b.filter = 'blur(50px)';
+  ctx.b.filter = 'blur(69px)';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
 }

@@ -18,11 +18,10 @@ body::-webkit-scrollbar {
 }
 
 img{
-  width: 50vw;
-  display: block;
-  margin: 0px auto;
-  display:block;
-  border-style: none;
+width: 50vw;
+display: block;
+margin: 0px auto;
+border-style: none;
 width: 100%;
 height: 98%;
 overflow: hidden;
@@ -30,21 +29,27 @@ overflow: hidden;
 .visible {
   opacity: 1;
   transform: translateY(0%);
-  transition: opacity 1100ms ease-out, transform 1500ms cubic-bezier(.14,.99,.56,.99);
+  transition: opacity 10000ms ease-out, transform 10000ms cubic-bezier(.14,.92,.69,.72);
   overflow: hidden;
 }
 
 
 @media only screen and (max-width: 1080px) {
 
-    .hlogo img{
-  display:block;
-  max-width: 100vw;
-  margin: 0 auto;
+  .hlogo img{
+display:block;
+max-width: 100vw;
+margin: 0 auto;
 z-index: 1;
 left: 0;
 top: 0;
 width: 100%;
 height: 100%;
 overflow: auto;
+}
+.visible {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 10000ms ease-out, transform 10000ms cubic-bezier(.14,.92,.69,.72);
+  overflow: hidden;
 }
